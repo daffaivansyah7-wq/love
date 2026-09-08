@@ -178,7 +178,7 @@ header {
 .music-btn {
 
     padding:
-        10px 19px;
+        12px 22px;
 
     border:
         1px solid
@@ -196,7 +196,7 @@ header {
 
     font-family: inherit;
 
-    font-size: 14px;
+    font-size: 16px;
 
     cursor: pointer;
 
@@ -248,9 +248,17 @@ header {
 }
 
 
-/* ========================================
-   HEART BUTTON
-======================================== */
+@media (max-width: 600px) {
+
+    .music-btn {
+
+        padding:
+            11px 18px;
+
+        font-size: 16px;
+    }
+}
+
 
 .heart-btn {
 
